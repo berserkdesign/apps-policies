@@ -3,21 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Xolotl Estudio - Legal</title>
+    <title>Xolotl Estudio - Legal Hub</title>
     <style>
-        body { font-family: sans-serif; line-height: 1.6; padding: 50px; max-width: 600px; margin: auto; text-align: center; background: #f4f4f4; }
-        .card { background: #fff; padding: 30px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
-        h1 { color: #d4af37; }
-        .button { display: block; background: #333; color: #fff; padding: 15px; margin: 10px 0; text-decoration: none; border-radius: 5px; transition: 0.3s; }
-        .button:hover { background: #d4af37; }
+        body { font-family: sans-serif; line-height: 1.6; padding: 50px; max-width: 600px; margin: auto; text-align: center; background: #fdfdfd; color: #333; }
+        .card { background: #fff; padding: 40px; border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.08); border-top: 5px solid #d4af37; }
+        h1 { color: #2c3e50; margin-bottom: 10px; }
+        p { color: #7f8c8d; margin-bottom: 30px; }
+        .button { 
+            display: block; 
+            background: #2c3e50; 
+            color: #fff; 
+            padding: 18px; 
+            margin: 15px 0; 
+            text-decoration: none; 
+            border-radius: 8px; 
+            font-weight: bold;
+            transition: all 0.3s ease;
+            border: 1px solid transparent;
+        }
+        .button:hover { 
+            background: #d4af37; 
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(212, 175, 55, 0.3);
+        }
+        .footer-text { font-size: 0.8em; color: #bdc3c7; margin-top: 40px; }
     </style>
 </head>
 <body>
     <div class="card">
+        <img src="https://via.placeholder.com/100/d4af37/ffffff?text=X" alt="Xolotl Logo" style="border-radius: 50%; margin-bottom: 20px;">
         <h1>Xolotl Estudio</h1>
-        <p>Documentación Legal de Aplicaciones</p>
-        <a href="privacy.html" class="button">Política de Privacidad (Privacy Policy)</a>
-        <a href="terms.html" class="button">Términos y Condiciones (Terms of Use)</a>
+        <p>Documentación Legal - Medidor de Anillos</p>
+        
+        <a href="privacy-policy.html" class="button">Política de Privacidad</a>
+        <a href="terms-conditions.html" class="button">Términos y Condiciones</a>
+    </div>
+    <div class="footer-text">
+        © 2026 Xolotl Estudio de Joyería. <br> Todos los derechos reservados.
     </div>
 </body>
 </html>
