@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xolotl Estudio - Legal</title>
+    <style>
+        body { font-family: sans-serif; line-height: 1.6; padding: 50px; max-width: 600px; margin: auto; text-align: center; background: #f4f4f4; }
+        .card { background: #fff; padding: 30px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
+        h1 { color: #d4af37; }
+        .button { display: block; background: #333; color: #fff; padding: 15px; margin: 10px 0; text-decoration: none; border-radius: 5px; transition: 0.3s; }
+        .button:hover { background: #d4af37; }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>Xolotl Estudio</h1>
+        <p>Documentación Legal de Aplicaciones</p>
+        <a href="privacy.html" class="button">Política de Privacidad (Privacy Policy)</a>
+        <a href="terms.html" class="button">Términos y Condiciones (Terms of Use)</a>
+    </div>
+</body>
+</html>
